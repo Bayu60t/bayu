@@ -4,7 +4,7 @@ const A187 = '🐉 *Black Dragon* 🐉'; // JANGAN UBAH-UBAH INFO!!!
 const instagram = 'https://instagram.com/Black.Dragon1945'; // JANGAN UBAH-UBAH INFO!!!
 const nomer = 'Wa.me/6285733781271'; // JANGAN UBAH-UBAH INFO!!!
 const aktif = 'Jika Memiliki Internet!'; // JANGAN UBAH-UBAH INFO!!!
-const groupwhatsapp = 'https://chat.whatsapp.com/DFyqVSqwxvfCVcpy2VAxg3'; // JANGAN UBAH-UBAH INFO!!!
+const groupwhatsapp = 'https://chat.whatsapp.com/DhRVodDKpY5EBpE65SCFMF'; // JANGAN UBAH-UBAH INFO!!!
 const youtube = 'https://youtube.com/channel/UCDJx-HaB0Ar25_ShPmGj7eA'; // JANGAN UBAH-UBAH INFO!!!
 
 const qrcode = require("qrcode-terminal");
