@@ -8,13 +8,13 @@
 * Chandra ID
 * BOLEH UBAH TAPI KECUALI INFO!!!
 */
-const A187 = '👾RAC-AI BOT👾'; // JANGAN UBAH-UBAH INFO!!!
-const instagram = 'https://instagram.com/rafiadichandra'; // JANGAN UBAH-UBAH INFO!!!
-const nomer = 'Wa.me/6281218898489'; // JANGAN UBAH-UBAH INFO!!!
+const A187 = '🐉 *Black Dragon* 🐉'; // JANGAN UBAH-UBAH INFO!!!
+const instagram = 'https://instagram.com/Black.Dragon1945'; // JANGAN UBAH-UBAH INFO!!!
+const nomer = 'Wa.me/6285733781271'; // JANGAN UBAH-UBAH INFO!!!
 const aktif = 'Jika Memiliki Internet!'; // JANGAN UBAH-UBAH INFO!!!
 const groupwhatsapp = 'https://chat.whatsapp.com/DFyqVSqwxvfCVcpy2VAxg3'; // JANGAN UBAH-UBAH INFO!!!
-const youtube = 'https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg'; // JANGAN UBAH-UBAH INFO!!!
-//ChandraID
+const youtube = 'https://youtube.com/channel/UCDJx-HaB0Ar25_ShPmGj7eA'; // JANGAN UBAH-UBAH INFO!!!
+
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
 const cheerio = require("cheerio");
