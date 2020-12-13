@@ -34,8 +34,8 @@ Script ini di modifikasi sama saya sendiri Chandra ID.
 > pkg install ffmpeg -y
 > pkg install nodejs -y
 > apt update -y && apt upgrade -y
-> git clone https://github.com/rafiadichandra0101/RAC-AI-BOT
-> cd RAC-AI-BOT
+> git clone https://github.com/bayu60t/bayu
+> cd bayu
 > npm i -g cwebp 
 > npm i node-tesseract-ocr 
 > npm i -g ytdl 
