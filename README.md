@@ -1,2 +1,0 @@
-# bayu
-Gratis cok 
