@@ -121,6 +121,9 @@ conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsA
 else if (text == 'assalamualaikum'){
 conn.sendMessage(id, ' _Waalaikumsalam, _Iyah aku disini kak...ada yang bisa kami bantu? Ketik *#help* untuk melihat fitur bot kami🙏_ ' ,MessageType.text);
 }
+	else if (text == 'link'){
+conn.sendMessage(id, ' _nih kak link nya....https://chat.whatsapp.com/DhRVodDKpY5EBpE65SCFMF_ ' ,MessageType.text);
+}
 else if (text == 'salam'){
 conn.sendMessage(id, ' _Waalaikumsalam, Iyah aku disini kak...ada yang bisa kami bantu? Ketik *#help* untuk melihat fitur bot kami🙏_ ' ,MessageType.text);
 }
