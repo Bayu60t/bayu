@@ -1,12 +1,4 @@
 /*
-* JANGAN UBAH-UBAH INFO!!!
-* "JANGAN MODAL NAMA DOANG BRO!!!"
-* SCRIPT BY Chandra ID
-* JANGAN MODAL NAMA DOANG BOSQ
-* HARGAILAH YY MEMBUAT SCRIPT INI BOSQ
-* JANGAN UBAH-UBAH INFO!!!
-* Chandra ID
-* BOLEH UBAH TAPI KECUALI INFO!!!
 */
 const A187 = '🐉 *Black Dragon* 🐉'; // JANGAN UBAH-UBAH INFO!!!
 const instagram = 'https://instagram.com/Black.Dragon1945'; // JANGAN UBAH-UBAH INFO!!!
