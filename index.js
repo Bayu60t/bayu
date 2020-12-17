@@ -406,7 +406,7 @@ if (text.includes("🐊harinasional")){
   conn.sendMessage(id, hasil, MessageType.text);
 })
 }
-else if (text == '🐊quran'){
+else if (text == '!quran'){
 axios.get('https://api.banghasan.com/quran/format/json/acak').then((res) => {
     const sr = /{(.*?)}/gi;
     const hs = res.data.acak.id.ayat;
@@ -968,7 +968,7 @@ conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *RANS-BOT🤖* , Fol
    {
       let is = m.message.conversation.toLocaleLowerCase()
 
-      if (is == '🐊pantun')
+      if (is == '!pantun')
       {
 
          fetch('https://raw.githubusercontent.com/pajaar/grabbed-results/master/pajaar-2020-pantun-pakboy.txt')
@@ -1100,7 +1100,7 @@ if (text.includes("🐊pokemon"))
   {
     const cheerio = require('cheerio');
     const request = require('request');
-    var nama = text.split("!nama ")[1];
+    var nama = text.split("🐊nama ")[1];
     var req = nama.replace(/ /g,"+");
     request.get({
         headers: {'content-type' : 'application/x-www-form-urlencoded'},
@@ -1129,7 +1129,7 @@ if (text.includes("🐊pokemon"))
   }
   else if (text.includes("🐊pasangan ")) {
     const request = require('request');
-    var gh = text.split("!pasangan ")[1];
+    var gh = text.split("🐊pasangan ")[1];
     var namamu = gh.split("&")[0];
     var pasangan = gh.split("&")[1];
     request.get({
@@ -1250,7 +1250,7 @@ if (text.includes("🐊fotoanime"))
     }
  
 if (text.includes("🐊lirik")){
-	const teks = text.replace(/!lirik /, "")
+	const teks = text.replace(/🐊lirik /, "")
 	axios.get(`https://arugaz.herokuapp.com/api/lirik?judul=${teks}`).then ((res) => {
 	     conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
 	 	let hasil = ` *🎧Lirik🎧 Lagu ${teks}:* \n\n\n ${res.data.result} `
@@ -1258,7 +1258,7 @@ if (text.includes("🐊lirik")){
 	})
 }
 if (text.includes("🐊alay")){
-	const teks = text.replace(/!alay /, "")
+	const teks = text.replace(/🐊alay /, "")
 	axios.get(`https://arugaz.herokuapp.com/api/bapakfont?kata=${teks}`).then ((res) =>
 		{ let hasil = `${res.data.result}`
 		conn.sendMessage(id, hasil, MessageType.text)
